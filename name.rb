@@ -8,3 +8,9 @@ puts "What is your last name?"
 last_name = gets.chomp
 
 puts "Hello #{first_name} #{last_name}, glad you can make it"
+
+10.times do 
+    puts first_name + " " + last_name
+end
+
+
